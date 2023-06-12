@@ -59,6 +59,18 @@
   align-items: center;
 }
 
+.header__content-thn {
+  z-index: 2;
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
 .header__title {
   font-size: 96px;
   max-width: 1000px;
@@ -67,8 +79,17 @@
   margin: 0;
 }
 
+.header__title-thn {
+  font-size: 60px;
+  max-width: 1000px;
+  text-align: center;
+  font-family: 'Europe Ext';
+  margin: 0;
+  margin-top: 30px;
+}
+
 .header__title-style {
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 1px white;
   /* Ширина и цвет обводки */
   -webkit-text-fill-color: transparent;
   /* Цвет заливки текста */
@@ -259,12 +280,6 @@
   line-height: 1.4;
 }
 
-.list-video {
-  max-width: 1000px;
-  margin-left: -350px;
-  overflow: hidden;
-}
-
 .custom-list {
   position: absolute;
   top: 150px;
@@ -363,7 +378,7 @@
 
 .cards-item {
   width: 490px;
-  height: 1000px;
+  height: 1200px;
   background-color: #191B24;
   border: none;
   border-radius: 10px;
@@ -394,6 +409,13 @@
   list-style: none;
 }
 
+.item-list-title {
+  font-size: 14px;
+  font-family: 'Europe Ext';
+  font-weight: 600;
+  max-width: 300px;
+}
+
 .item-list li {
   padding-bottom: 15px;
 }
@@ -416,6 +438,16 @@
 .item__info-price {
   position: absolute;
   bottom: 10px;
+}
+
+.item__adress {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  max-width: 350px;
+  line-height: 1.5;
+  list-style: none;
+  margin-left: 30px;
 }
 
 .item__line {
@@ -615,6 +647,10 @@
     margin: 0;
   }
 
+  .header__title-thn {
+    font-size: 40px;
+  }
+
   .event__about {
     flex-direction: column;
     width: 100%;
@@ -734,6 +770,10 @@
     width: 650px;
   }
 
+  .item__adress {
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (max-width: 576px) {  
@@ -779,6 +819,15 @@
     max-width: 400px;
   }
 
+  .header__title-thn {
+    font-size: 35px;
+    max-width: 1000px;
+    text-align: center;
+    font-family: 'Europe Ext';
+    margin: 0;
+    margin-top: 30px;
+  }
+
   .header__title-style {
     -webkit-text-stroke: 1px white;
   }
@@ -812,7 +861,7 @@
   }
 
   .waiting__item {
-    width: 460px;
+    width: 440px;
   }
 
   .waiting__title {
@@ -864,5 +913,13 @@
   .item__logo {
     font-size: 14px;
     padding-left: 30px;
+  }
+
+  .custom-list li {
+    font-size: 14px;
+  }
+
+  .custom-list li::before {
+    left: 20px;
   }
 }
