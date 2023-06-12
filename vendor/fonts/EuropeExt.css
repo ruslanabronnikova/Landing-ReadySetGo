@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Europe Ext';
+    src: local('europeextnormal'), local('europeextnormal'),
+        url('EuropeExt/europeextnormal.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Europe Ext';
+    src: local('europeextbold'), local('europeextbold'),
+        url('EuropeExt/europeextbold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
