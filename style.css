@@ -382,7 +382,7 @@
 
 .cards-item {
   width: 490px;
-  height: 1200px;
+  height: 1240px;
   background-color: #191B24;
   border: none;
   border-radius: 10px;
@@ -413,11 +413,20 @@
   list-style: none;
 }
 
-.item-list-title {
+.item-list-title-b {
   font-size: 14px;
   font-family: 'Europe_Ext';
   font-weight: 600;
   max-width: 300px;
+  color: #43B7FC;
+}
+
+.item-list-title-y {
+  font-size: 14px;
+  font-family: 'Europe_Ext';
+  font-weight: 600;
+  max-width: 300px;
+  color: #FAC051;
 }
 
 .item-list li {
