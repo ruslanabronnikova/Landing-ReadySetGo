@@ -75,7 +75,7 @@
   font-size: 96px;
   max-width: 1000px;
   text-align: center;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   margin: 0;
 }
 
@@ -83,17 +83,13 @@
   font-size: 60px;
   max-width: 1000px;
   text-align: center;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   margin: 0;
   margin-top: 30px;
 }
 
 .header__title-style {
-  -webkit-text-stroke: 1px white;
-  /* Ширина и цвет обводки */
-  -webkit-text-fill-color: transparent;
-  /* Цвет заливки текста */
-  font-weight: 800;
+  color: #ffffff;
 }
 
 .header__subtitle {
@@ -161,19 +157,16 @@
 .event__title-one {
   color: #43B7FC;
   font-size: 96px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   max-width: 900px;
 }
 
 .event__title-two {
-  -webkit-text-stroke: 2px white;
-  /* Ширина и цвет обводки */
-  -webkit-text-fill-color: transparent;
-  /* Цвет заливки текста */
+  color: #ffffff;
   font-weight: 800;
   font-size: 128px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   padding-left: 150px;
 }
 
@@ -230,7 +223,7 @@
 .waiting__title {
   font-size: 96px;
   color: white;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   margin-left: 100px;
 }
@@ -263,7 +256,7 @@
 
 .list-title {
   font-size: 45px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   position: absolute;
   top: 30px;
@@ -273,7 +266,7 @@
 
 .list-title__style {
   font-size: 45px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   position: absolute;
   top: 30px;
@@ -349,7 +342,7 @@
 
 .tarif__title {
   font-size: 64px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   text-align: center;
   max-width: 1200px;
@@ -358,7 +351,7 @@
 
 .tatif__logo {
   font-size: 40px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   text-align: center;
   margin: 0;
@@ -405,7 +398,7 @@
 
 .item__title {
   font-size: 18px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 600;
   max-width: 300px;
   padding-left: 30px;
@@ -422,7 +415,7 @@
 
 .item-list-title {
   font-size: 14px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 600;
   max-width: 300px;
 }
@@ -477,7 +470,7 @@
 
 .item__price {
   font-size: 25px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 600;
   max-width: 300px;
   padding-left: 30px;
@@ -513,7 +506,7 @@
 
 .item__logo {
   font-size: 20px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   padding-left: 80px;
 }
@@ -540,7 +533,7 @@
 
 .foote__logo {
   font-size: 20px;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   padding-left: 80px;
 }
@@ -549,7 +542,7 @@
   margin: 0 auto;
   margin-top: 20px;
   text-align: center;
-  font-family: 'Europe Ext';
+  font-family: 'Europe_Ext';
   font-weight: 500;
   font-size: 14px;
 }
@@ -672,7 +665,7 @@
     font-size: 70px;
     max-width: 800px;
     text-align: center;
-    font-family: 'Europe Ext';
+    font-family: 'Europe_Ext';
     margin: 0;
   }
 
@@ -858,7 +851,7 @@
     font-size: 35px;
     max-width: 1000px;
     text-align: center;
-    font-family: 'Europe Ext';
+    font-family: 'Europe_Ext';
     margin: 0;
     margin-top: 30px;
   }

@@ -1,15 +1,10 @@
 @font-face {
-    font-family: 'Europe Ext';
-    src: local('europeextnormal'), local('europeextnormal'),
-        url('EuropeExt/europeextnormal.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+	font-family: "Europe_Ext";
+	src: local('inter'),
+		url("../../vendor/fonts/EuropeExt/europe-ext.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../../vendor/fonts/EuropeExt/europe-ext.woff") format("woff"), /* Modern Browsers */
+		url("../../vendor/fonts/EuropeExt/europe-ext.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
 }
 
-@font-face {
-    font-family: 'Europe Ext';
-    src: local('europeextbold'), local('europeextbold'),
-        url('EuropeExt/europeextbold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
