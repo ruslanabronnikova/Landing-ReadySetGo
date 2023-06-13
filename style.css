@@ -784,7 +784,7 @@
   }
 
   .tarif {
-    margin-top: 400px;
+    margin-top: 250px;
   }
 }
 
@@ -816,6 +816,7 @@
     flex-direction: column;
     position: relative;
     margin-left: 0px;
+    margin-top: 0;
   }
 
   .waiting__item {
@@ -895,7 +896,7 @@
   }
 
   .waiting__item {
-    width: 440px;
+    width: 400px;
   }
 
   .waiting__title {
